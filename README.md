@@ -246,12 +246,6 @@ Cet outil est à usage personnel. Toute amélioration doit respecter le cadre é
 
 ---
 
-## 📞 Support
-
-Pour questions ou démonstrations éducatives uniquement.
-
----
-
 ## 🔐 Licence
 
 **Usage Éducatif & Recherche Uniquement**  
