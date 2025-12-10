@@ -42,10 +42,37 @@ Un outil de reconnaissance cybersécurité avancé exploitant les fuites WebRTC 
 
 ---
 
+## 🌐 Plateformes Compatibles
+
+### ✅ Fonctionnement Optimal (WebRTC P2P Direct)
+- **Omegle** - Idéal pour tests rapides, connexion P2P pure
+- **MAzar** - Plateforme de rencontre vidéo, WebRTC natif
+- **Chatroulette** - Chat vidéo aléatoire, excellent support
+- **Discord** - Appels vocaux/vidéo (1-to-1 et petits groupes)
+- **Google Meet** - Appels P2P directs
+- **Jitsi Meet** - Visioconférence open-source
+- **Facebook essenger** - Appels vidéo WebRTC
+- **WhatsApp Web** - Appels vocaux/vidéo
+
+### ⚠️ Fonctionnement Partiel
+- **TikTok Live** - Fonctionne uniquement en mode co-streaming (live avec invités)
+- **Zoom** - Seulement si le mode P2P est activé (petites réunions)
+- **Microsoft Teams** - Dépend de la configuration réseau
+
+### ❌ Non Compatible (Streaming Serveur Uniquement)
+- **Twitch** - Streaming unidirectionnel sans WebRTC P2P
+- **YouTube Live** - Architecture serveur, pas de P2P
+- **Instagram Live** - Streaming serveur uniquement
+- **Kick** - Streaming centralisé
+
+> **💡 Astuce :** Les plateformes de **chat vidéo aléatoire** et **appels directs** sont les plus efficaces car elles utilisent systématiquement WebRTC en peer-to-peer.
+
+---
+
 ## 📋 Installation & Utilisation
 
-### Méthode 1 : Injection Console (Live Streaming)
-1. Ouvrir la plateforme de streaming (Azar, etc.)
+### Méthode 1 : Injection Console (Recommandée)
+1. Ouvrir la plateforme compatible (Omegle, Discord, Azar, etc.)
 2. Ouvrir la console développeur (`Cmd+Option+J` sur Mac, `F12` sur Windows)
 3. Copier-coller le contenu de `cyber_recon_v1.0.0.js`
 4. Appuyer sur **Entrée**
